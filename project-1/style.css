@@ -1,0 +1,170 @@
+/* style.css - Styling for The Modern Frame */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header.site-header {
+  background-color: #222;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index : 1000;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+}
+
+.nav-menu li a:hover {
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Hero Section */
+.hero img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: crimson;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.upcoming a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.open-house-banner {
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.gallery-grid article {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid article:hover {
+  transform: scale(1.03);
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Text and Typography */
+h2, h3 {
+  color: #222;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ol, ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+table th, table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+/* Video */
+video {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
