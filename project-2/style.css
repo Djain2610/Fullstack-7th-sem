@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 1.2rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+input[type="range"],
+input[type="tel"],
+input[type="url"],
+input[type="submit"],
+input[type="reset"] {
+  display: block;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Checkboxes and radios */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+/* Submit and Reset Buttons */
+input[type="submit"],
+input[type="reset"] {
+  margin-top: 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="reset"] {
+  background-color: #6c757d;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+input[type="reset"]:hover {
+  background-color: #5a6268;
+}

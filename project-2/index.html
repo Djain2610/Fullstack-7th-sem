@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Input Tag Test Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Test Input Types</h1>
+  <form>
+
+    <label>Name (text)
+      <input type="text" name="name" placeholder="Enter your name" required />
+    </label>
+
+    <label>Password
+      <input type="password" name="password" required />
+    </label>
+
+    <label>Email
+      <input type="email" name="email" placeholder="you@example.com" required />
+    </label>
+
+    <label>Age
+      <input type="number" name="age" min="0" max="100" />
+    </label>
+
+    <label>Date
+      <input type="date" name="dob" />
+    </label>
+
+    <label>Time
+      <input type="time" name="appointment" />
+    </label>
+
+    
+
+    <label>Upload File
+      <input type="file" name="resume" />
+    </label>
+
+    <label>Range Slider
+      <input type="range" name="volume" min="0" max="100" />
+    </label>
+
+    <label>Telephone
+      <input type="tel" name="phone" placeholder="123-456-7890" />
+    </label>
+
+    <label>URL
+      <input type="url" name="website" placeholder="https://example.com" />
+    </label>
+
+    <label>Checkbox (I agree)
+      <input type="checkbox" name="agree" />
+    </label>
+
+    <label>Gender (Choose one)<br />
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+    </label>
+
+    <input type="hidden" name="hiddenField" value="invisibleData" />
+
+    <br /><br />
+    <input type="submit" value="Submit Form" />
+    <input type="reset" value="Reset Form" />
+
+  </form>
+
+</body>
+</html>
