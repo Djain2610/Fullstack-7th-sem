@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>3D CSS Flip Card — Travel Guide</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="page-title">TravelBuddy — Interactive Destination Card</h1>
+
+    <section class="flip-card-wrapper">
+      <article class="flip-card" tabindex="0" aria-label="Travel Destination Card. Hover or focus to flip.">
+        <div class="flip-card-inner">
+
+          <!-- FRONT -->
+          <figure class="flip-card-face flip-front">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80"
+                 alt="Santorini, Greece"
+                 class="project-image">
+            <figcaption class="front-caption">
+              <h3 class="project-title">Santorini Escape</h3>
+              <p class="project-tagline">Whitewashed houses, blue domes, and breathtaking sunsets.</p>
+            </figcaption>
+          </figure>
+
+          <!-- BACK -->
+          <div class="flip-card-face flip-back" aria-hidden="true">
+            <div class="back-content">
+              <h3>Discover Santorini</h3>
+              <p>Experience the charm of the Aegean Sea, stroll through Oia’s narrow streets, and taste world-class Mediterranean cuisine.</p>
+              <p class="skills"><strong>Best Time to Visit:</strong> May – September</p>
+              <a class="cta-btn" href="#book" title="Plan your trip to Santorini">Plan Trip</a>
+            </div>
+          </div>
+
+        </div>
+      </article>
+    </section>
+
+    <p class="note">Hover or press <kbd>Tab</kbd> on the card to see more.</p>
+  </main>
+</body>
+</html>
