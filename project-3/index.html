@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designify Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand">Designify</div>
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <h1>We Design Experiences That Inspire</h1>
+                <p>Creative design solutions for businesses that want to stand out in the digital world.</p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container about-grid">
+                <img src="https://picsum.photos/500/350?random=1" alt="About Us">
+                <div>
+                    <h2>About Us</h2>
+                    <p>At Designify, our mission is to craft impactful designs that tell your story. Our multidisciplinary team combines creativity, strategy, and technology to deliver solutions that connect with your audience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>UI/UX Design</h3>
+                        <p>Clean, intuitive, and user-friendly interfaces tailored for your customers.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Brand Identity</h3>
+                        <p>Build a consistent, memorable brand that speaks your vision.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Web Development</h3>
+                        <p>Fast, responsive, and modern websites that convert visitors into customers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+<section id="portfolio" class="section">
+    <div class="container">
+        <h2 class="section-title">Our Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modern Website Design">
+                <h3>Modern Web Revamp</h3>
+                <p>Redesigned a corporate site with a sleek, mobile-first approach that boosted engagement by 45%.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1601979039860-26f3d3d5153f?auto=format&fit=crop&w=800&q=80" alt="Brand Identity">
+                <h3>Bold Brand Identity</h3>
+                <p>Created a vibrant brand identity for a startup, giving them a unique voice in a crowded market.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1581091012184-5c2f0bb8b6af?auto=format&fit=crop&w=800&q=80" alt="Mobile App UI">
+                <h3>Intuitive App UI</h3>
+                <p>Designed an easy-to-use mobile interface for a health tracking app with over 100k downloads.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Designify. All rights reserved.</p>
+    </footer>
+</body>
+</html>

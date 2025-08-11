@@ -32,6 +32,7 @@ input[type="email"],
 input[type="number"],
 input[type="date"],
 input[type="time"],
+input[type="color"],
 input[type="file"],
 input[type="range"],
 input[type="tel"],
@@ -48,7 +49,6 @@ input[type="reset"] {
   box-sizing: border-box;
 }
 
-/* Checkboxes and radios */
 input[type="checkbox"],
 input[type="radio"] {
   display: inline-block;
@@ -56,7 +56,6 @@ input[type="radio"] {
   margin-right: 0.5rem;
 }
 
-/* Submit and Reset Buttons */
 input[type="submit"],
 input[type="reset"] {
   margin-top: 1.5rem;
